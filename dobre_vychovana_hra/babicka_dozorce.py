@@ -3,7 +3,7 @@ from inspect import signature
 from dobre_vychovana_hra.exceptions import FunkceJeNezdvorila
 
 
-# Axiom: Je neslusne byt snob
+# Axiom: Je neslusne byt snob.
 
 class BabickaDozorce:
     zadost_sentinel = "zadost"
