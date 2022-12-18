@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dobre-vychovana-hra"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Hudak <jakub.j.hudak@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dobre_vychovana_hra"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,2 @@
+class FunkceJeNezdvorila(Exception):
+    pass
