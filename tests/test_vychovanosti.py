@@ -12,7 +12,7 @@ def babicka_na_testovani():
     darebactvi = ["ty kravo"]
     babicka = BabickaDozorce(poproseni=poproseni, darebactvi=darebactvi)
     babicka.pridat_darebactvi("trhni si")
-    return BabickaDozorce(poproseni=poproseni, darebactvi=darebactvi)
+    return babicka
 
 
 @pytest.fixture
